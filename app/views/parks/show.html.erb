@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @park.name %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%=h @park.address %>
+</p>
+
+
+<%= link_to 'Edit', edit_park_path(@park) %> |
+<%= link_to 'Back', parks_path %>
