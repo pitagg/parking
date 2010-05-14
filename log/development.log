@@ -645,3 +645,168 @@ Processing UsersController#index (for 127.0.0.1 at 2010-05-14 02:04:29) [GET]
 Rendering template within layouts/users
 Rendering users/index
 Completed in 40ms (View: 16, DB: 2) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-14 02:07:32) [GET]
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 34ms (View: 20, DB: 1) | 200 OK [http://localhost/users]
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100514035501)
+Migrating to CreateParks (20100514042734)
+Migrating to CreateVehicleTypes (20100514051025)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (230.3ms)[0m   [0mCREATE TABLE "vehicle_types" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (157.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100514051025')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("estabelecimentos")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("parks")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("vehicle_types")[0m
+
+
+Processing VehicleTypesController#index (for 127.0.0.1 at 2010-05-14 02:12:48) [GET]
+  [4;36;1mVehicleType Load (0.7ms)[0m   [0;1mSELECT * FROM "vehicle_types" [0m
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/index
+Completed in 20ms (View: 6, DB: 1) | 200 OK [http://localhost/vehicle_types]
+
+
+Processing VehicleTypesController#new (for 127.0.0.1 at 2010-05-14 02:12:51) [GET]
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/new
+Completed in 30ms (View: 16, DB: 0) | 200 OK [http://localhost/vehicle_types/new]
+
+
+Processing VehicleTypesController#create (for 127.0.0.1 at 2010-05-14 02:13:39) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"6ad47b5b4962257d554dd092e0952bd93a4007fb", "vehicle_type"=>{"name"=>"Carro ", "description"=>"Veículo convencional com ou sem carroceria"}}
+  [4;35;1mVehicleType Create (1.2ms)[0m   [0mINSERT INTO "vehicle_types" ("name", "created_at", "updated_at", "description") VALUES('Carro ', '2010-05-14 05:13:40', '2010-05-14 05:13:40', 'Veículo convencional com ou sem carroceria')[0m
+Redirected to #<VehicleType:0xb6f46d64>
+Completed in 149ms (DB: 1) | 302 Found [http://localhost/vehicle_types]
+
+
+Processing VehicleTypesController#show (for 127.0.0.1 at 2010-05-14 02:13:40) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mVehicleType Load (0.5ms)[0m   [0;1mSELECT * FROM "vehicle_types" WHERE ("vehicle_types"."id" = 1) [0m
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/show
+Completed in 25ms (View: 8, DB: 0) | 200 OK [http://localhost/vehicle_types/1]
+
+
+Processing VehicleTypesController#index (for 127.0.0.1 at 2010-05-14 02:13:46) [GET]
+  [4;35;1mVehicleType Load (0.9ms)[0m   [0mSELECT * FROM "vehicle_types" [0m
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/index
+Completed in 30ms (View: 15, DB: 1) | 200 OK [http://localhost/vehicle_types]
+
+
+Processing VehicleTypesController#new (for 127.0.0.1 at 2010-05-14 02:13:49) [GET]
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/vehicle_types/new]
+
+
+Processing VehicleTypesController#create (for 127.0.0.1 at 2010-05-14 02:14:29) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"6ad47b5b4962257d554dd092e0952bd93a4007fb", "vehicle_type"=>{"name"=>"Caminhão - Toco ou Truck ", "description"=>""}}
+  [4;36;1mVehicleType Create (1.1ms)[0m   [0;1mINSERT INTO "vehicle_types" ("name", "created_at", "updated_at", "description") VALUES('Caminhão - Toco ou Truck ', '2010-05-14 05:14:29', '2010-05-14 05:14:29', '')[0m
+Redirected to #<VehicleType:0xb6d89ff8>
+Completed in 141ms (DB: 1) | 302 Found [http://localhost/vehicle_types]
+
+
+Processing VehicleTypesController#show (for 127.0.0.1 at 2010-05-14 02:14:29) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mVehicleType Load (0.5ms)[0m   [0mSELECT * FROM "vehicle_types" WHERE ("vehicle_types"."id" = 2) [0m
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/show
+Completed in 20ms (View: 7, DB: 0) | 200 OK [http://localhost/vehicle_types/2]
+
+
+Processing VehicleTypesController#index (for 127.0.0.1 at 2010-05-14 02:14:36) [GET]
+  [4;36;1mVehicleType Load (1.0ms)[0m   [0;1mSELECT * FROM "vehicle_types" [0m
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/index
+Completed in 39ms (View: 24, DB: 1) | 200 OK [http://localhost/vehicle_types]
+
+
+Processing VehicleTypesController#new (for 127.0.0.1 at 2010-05-14 02:14:38) [GET]
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/new
+Completed in 28ms (View: 16, DB: 0) | 200 OK [http://localhost/vehicle_types/new]
+
+
+Processing VehicleTypesController#create (for 127.0.0.1 at 2010-05-14 02:15:11) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"6ad47b5b4962257d554dd092e0952bd93a4007fb", "vehicle_type"=>{"name"=>"Moto ou Bis", "description"=>""}}
+  [4;35;1mVehicleType Create (1.2ms)[0m   [0mINSERT INTO "vehicle_types" ("name", "created_at", "updated_at", "description") VALUES('Moto ou Bis', '2010-05-14 05:15:11', '2010-05-14 05:15:11', '')[0m
+Redirected to #<VehicleType:0xb6e9db74>
+Completed in 154ms (DB: 1) | 302 Found [http://localhost/vehicle_types]
+
+
+Processing VehicleTypesController#show (for 127.0.0.1 at 2010-05-14 02:15:11) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mVehicleType Load (0.4ms)[0m   [0;1mSELECT * FROM "vehicle_types" WHERE ("vehicle_types"."id" = 3) [0m
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/show
+Completed in 24ms (View: 8, DB: 0) | 200 OK [http://localhost/vehicle_types/3]
+
+
+Processing VehicleTypesController#index (for 127.0.0.1 at 2010-05-14 02:15:17) [GET]
+  [4;35;1mVehicleType Load (1.1ms)[0m   [0mSELECT * FROM "vehicle_types" [0m
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/index
+Completed in 45ms (View: 30, DB: 1) | 200 OK [http://localhost/vehicle_types]
+
+
+Processing VehicleTypesController#new (for 127.0.0.1 at 2010-05-14 02:15:24) [GET]
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/new
+Completed in 23ms (View: 12, DB: 0) | 200 OK [http://localhost/vehicle_types/new]
+
+
+Processing VehicleTypesController#create (for 127.0.0.1 at 2010-05-14 02:15:35) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"6ad47b5b4962257d554dd092e0952bd93a4007fb", "vehicle_type"=>{"name"=>"Bicicleta", "description"=>""}}
+  [4;36;1mVehicleType Create (5.0ms)[0m   [0;1mINSERT INTO "vehicle_types" ("name", "created_at", "updated_at", "description") VALUES('Bicicleta', '2010-05-14 05:15:35', '2010-05-14 05:15:35', '')[0m
+Redirected to #<VehicleType:0xb6c79d70>
+Completed in 155ms (DB: 5) | 302 Found [http://localhost/vehicle_types]
+
+
+Processing VehicleTypesController#show (for 127.0.0.1 at 2010-05-14 02:15:35) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mVehicleType Load (0.5ms)[0m   [0mSELECT * FROM "vehicle_types" WHERE ("vehicle_types"."id" = 4) [0m
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/show
+Completed in 155ms (View: 12, DB: 1) | 200 OK [http://localhost/vehicle_types/4]
+
+
+Processing VehicleTypesController#index (for 127.0.0.1 at 2010-05-14 02:15:38) [GET]
+  [4;36;1mVehicleType Load (1.5ms)[0m   [0;1mSELECT * FROM "vehicle_types" [0m
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/index
+Completed in 46ms (View: 34, DB: 2) | 200 OK [http://localhost/vehicle_types]
+
+
+Processing VehicleTypesController#edit (for 127.0.0.1 at 2010-05-14 02:15:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mVehicleType Load (0.4ms)[0m   [0mSELECT * FROM "vehicle_types" WHERE ("vehicle_types"."id" = 1) [0m
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/edit
+Completed in 45ms (View: 24, DB: 0) | 200 OK [http://localhost/vehicle_types/1/edit]
+
+
+Processing VehicleTypesController#index (for 127.0.0.1 at 2010-05-14 02:15:50) [GET]
+  [4;36;1mVehicleType Load (1.2ms)[0m   [0;1mSELECT * FROM "vehicle_types" [0m
+Rendering template within layouts/vehicle_types
+Rendering vehicle_types/index
+Completed in 49ms (View: 34, DB: 1) | 200 OK [http://localhost/vehicle_types]
