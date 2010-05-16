@@ -2624,3 +2624,285 @@ Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:05:00) [GET]
 Rendering template within layouts/application
 Rendering users/index
 Completed in 29ms (View: 11, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:10:39) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 39ms (View: 20, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:10:57) [GET]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 57ms (View: 29, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:11:06) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 25ms (View: 11, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:11:29) [GET]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 31ms (View: 19, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:12:19) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 32ms (View: 16, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:13:06) [GET]
+  [4;35;1mUser Load (3.6ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 37ms (View: 18, DB: 4) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:13:17) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 45ms (View: 19, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:13:44) [GET]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 201ms (View: 123, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:13:56) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 79ms (View: 65, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:14:22) [GET]
+  [4;35;1mUser Load (1.2ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 107ms (View: 49, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:14:34) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 31ms (View: 14, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:14:40) [GET]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 61ms (View: 23, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:14:52) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 78ms (View: 43, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:15:00) [GET]
+  [4;35;1mUser Load (2.0ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 28ms (View: 14, DB: 2) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:15:10) [GET]
+  [4;36;1mUser Load (36.9ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 136ms (View: 64, DB: 37) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:15:28) [GET]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 79ms (View: 34, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:15:47) [GET]
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 27ms (View: 15, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing ParksController#index (for 127.0.0.1 at 2010-05-16 05:15:49) [GET]
+  [4;35;1mPark Load (0.9ms)[0m   [0mSELECT * FROM "parks" [0m
+Rendering template within layouts/application
+Rendering parks/index
+Completed in 40ms (View: 21, DB: 1) | 200 OK [http://localhost/parks]
+
+
+Processing ParkingSpacesController#index (for 127.0.0.1 at 2010-05-16 05:15:51) [GET]
+  [4;36;1mParkingSpace Load (0.7ms)[0m   [0;1mSELECT * FROM "parking_spaces" [0m
+Rendering template within layouts/application
+Rendering parking_spaces/index
+Completed in 46ms (View: 24, DB: 1) | 200 OK [http://localhost/parking_spaces]
+
+
+Processing VehicleTypesController#index (for 127.0.0.1 at 2010-05-16 05:15:54) [GET]
+  [4;35;1mVehicleType Load (1.3ms)[0m   [0mSELECT * FROM "vehicle_types" [0m
+Rendering template within layouts/application
+Rendering vehicle_types/index
+Completed in 77ms (View: 56, DB: 1) | 200 OK [http://localhost/vehicle_types]
+  [4;36;1mSQL (1.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ParkingSpacesController#index (for 127.0.0.1 at 2010-05-16 05:20:50) [GET]
+  [4;36;1mParkingSpace Load (0.7ms)[0m   [0;1mSELECT * FROM "parking_spaces" [0m
+Rendering template within layouts/application
+Rendering parking_spaces/index
+Completed in 35ms (View: 14, DB: 1) | 200 OK [http://localhost/parking_spaces]
+
+
+Processing ParkingSpacesController#new (for 127.0.0.1 at 2010-05-16 05:20:52) [GET]
+Rendering template within layouts/application
+Rendering parking_spaces/new
+Completed in 42ms (View: 28, DB: 0) | 200 OK [http://localhost/parking_spaces/new]
+
+
+Processing ParkingSpacesController#create (for 127.0.0.1 at 2010-05-16 05:20:55) [POST]
+  Parameters: {"parking_space"=>{"amount"=>"", "user_id"=>"", "vehicle_type_id"=>"", "park_id"=>"", "amount_free"=>""}, "commit"=>"Create", "authenticity_token"=>"6ad47b5b4962257d554dd092e0952bd93a4007fb"}
+Rendering template within layouts/application
+Rendering parking_spaces/new
+Completed in 63ms (View: 23, DB: 0) | 200 OK [http://localhost/parking_spaces]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-05-16 05:22:18) [GET]
+  [4;35;1mUser Load (1.4ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 175ms (View: 158, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-05-16 05:22:20) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 51ms (View: 30, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-05-16 05:22:32) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"6ad47b5b4962257d554dd092e0952bd93a4007fb", "user"=>{"name"=>"Pitágoras  Gervasi Galiotto", "password"=>"123456", "login"=>"pitagg"}}
+  [4;36;1mUser Create (1.8ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "login", "password") VALUES('Pitágoras Gervasi Galiotto', '2010-05-16 08:22:32', '2010-05-16 08:22:32', 'pitagg', '123456')[0m
+Redirected to #<User:0xb6f73ea4>
+Completed in 131ms (DB: 2) | 302 Found [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-05-16 05:22:32) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 32ms (View: 13, DB: 0) | 200 OK [http://localhost/users/2]
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mPark Load (0.7ms)[0m   [0mSELECT * FROM "parks" LIMIT 1[0m
+  [4;36;1mVehicleType Load (1.3ms)[0m   [0;1mSELECT * FROM "vehicle_types" [0m
+  [4;35;1mParkingSpace Create (1.5ms)[0m   [0mINSERT INTO "parking_spaces" ("created_at", "updated_at", "amount", "vehicle_type_id", "user_id", "park_id", "amount_free") VALUES('2010-05-16 08:27:29', '2010-05-16 08:27:29', 30, 1, 2, 1, 30)[0m
+
+
+Processing ParkingSpacesController#index (for 127.0.0.1 at 2010-05-16 05:27:41) [GET]
+  [4;36;1mParkingSpace Load (1.0ms)[0m   [0;1mSELECT * FROM "parking_spaces" [0m
+Rendering template within layouts/application
+Rendering parking_spaces/index
+Completed in 42ms (View: 30, DB: 1) | 200 OK [http://localhost/parking_spaces]
+
+
+Processing ParkingSpacesController#index (for 127.0.0.1 at 2010-05-16 05:29:20) [GET]
+  [4;35;1mParkingSpace Load (1.0ms)[0m   [0mSELECT * FROM "parking_spaces" [0m
+Rendering template within layouts/application
+Rendering parking_spaces/index
+  [4;36;1mPark Load (0.5ms)[0m   [0;1mSELECT * FROM "parks" WHERE ("parks"."id" = 1) [0m
+  [4;35;1mVehicleType Load (0.5ms)[0m   [0mSELECT * FROM "vehicle_types" WHERE ("vehicle_types"."id" = 1) [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Completed in 236ms (View: 222, DB: 3) | 200 OK [http://localhost/parking_spaces]
+
+
+Processing ParksController#index (for 127.0.0.1 at 2010-05-16 05:30:23) [GET]
+  [4;35;1mPark Load (0.9ms)[0m   [0mSELECT * FROM "parks" [0m
+Rendering template within layouts/application
+Rendering parks/index
+Completed in 70ms (View: 23, DB: 1) | 200 OK [http://localhost/parks]
+
+
+Processing ParkingSpacesController#index (for 127.0.0.1 at 2010-05-16 05:30:25) [GET]
+  [4;36;1mParkingSpace Load (1.1ms)[0m   [0;1mSELECT * FROM "parking_spaces" [0m
+Rendering template within layouts/application
+Rendering parking_spaces/index
+  [4;35;1mPark Load (0.5ms)[0m   [0mSELECT * FROM "parks" WHERE ("parks"."id" = 1) [0m
+  [4;36;1mVehicleType Load (0.5ms)[0m   [0;1mSELECT * FROM "vehicle_types" WHERE ("vehicle_types"."id" = 1) [0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Completed in 88ms (View: 69, DB: 3) | 200 OK [http://localhost/parking_spaces]
+
+
+Processing VehicleTypesController#index (for 127.0.0.1 at 2010-05-16 05:30:28) [GET]
+  [4;36;1mVehicleType Load (1.3ms)[0m   [0;1mSELECT * FROM "vehicle_types" [0m
+Rendering template within layouts/application
+Rendering vehicle_types/index
+Completed in 54ms (View: 37, DB: 1) | 200 OK [http://localhost/vehicle_types]
+
+
+Processing ParkingSpacesController#index (for 127.0.0.1 at 2010-05-16 05:30:32) [GET]
+  [4;35;1mParkingSpace Load (1.0ms)[0m   [0mSELECT * FROM "parking_spaces" [0m
+Rendering template within layouts/application
+Rendering parking_spaces/index
+  [4;36;1mPark Load (0.9ms)[0m   [0;1mSELECT * FROM "parks" WHERE ("parks"."id" = 1) [0m
+  [4;35;1mVehicleType Load (0.5ms)[0m   [0mSELECT * FROM "vehicle_types" WHERE ("vehicle_types"."id" = 1) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Completed in 78ms (View: 64, DB: 3) | 200 OK [http://localhost/parking_spaces]
+
+
+Processing ParkingSpacesController#edit (for 127.0.0.1 at 2010-05-16 05:30:35) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mParkingSpace Load (0.5ms)[0m   [0mSELECT * FROM "parking_spaces" WHERE ("parking_spaces"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering parking_spaces/edit
+Completed in 52ms (View: 31, DB: 1) | 200 OK [http://localhost/parking_spaces/2/edit]
+
+
+Processing ParkingSpacesController#update (for 127.0.0.1 at 2010-05-16 05:30:43) [PUT]
+  Parameters: {"parking_space"=>{"amount"=>"30", "user_id"=>"2", "vehicle_type_id"=>"2", "park_id"=>"1", "amount_free"=>"30"}, "commit"=>"Update", "authenticity_token"=>"6ad47b5b4962257d554dd092e0952bd93a4007fb", "id"=>"2"}
+  [4;36;1mParkingSpace Load (1.8ms)[0m   [0;1mSELECT * FROM "parking_spaces" WHERE ("parking_spaces"."id" = 2) [0m
+  [4;35;1mParkingSpace Update (1.1ms)[0m   [0mUPDATE "parking_spaces" SET "updated_at" = '2010-05-16 08:30:43', "vehicle_type_id" = 2 WHERE "id" = 2[0m
+Redirected to #<ParkingSpace:0xb6f5bbb0>
+Completed in 174ms (DB: 3) | 302 Found [http://localhost/parking_spaces/2]
+
+
+Processing ParkingSpacesController#show (for 127.0.0.1 at 2010-05-16 05:30:43) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mParkingSpace Load (0.5ms)[0m   [0;1mSELECT * FROM "parking_spaces" WHERE ("parking_spaces"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering parking_spaces/show
+Completed in 40ms (View: 20, DB: 1) | 200 OK [http://localhost/parking_spaces/2]
+
+
+Processing ParkingSpacesController#index (for 127.0.0.1 at 2010-05-16 05:30:47) [GET]
+  [4;35;1mParkingSpace Load (1.0ms)[0m   [0mSELECT * FROM "parking_spaces" [0m
+Rendering template within layouts/application
+Rendering parking_spaces/index
+  [4;36;1mPark Load (0.5ms)[0m   [0;1mSELECT * FROM "parks" WHERE ("parks"."id" = 1) [0m
+  [4;35;1mVehicleType Load (0.5ms)[0m   [0mSELECT * FROM "vehicle_types" WHERE ("vehicle_types"."id" = 2) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Completed in 95ms (View: 81, DB: 2) | 200 OK [http://localhost/parking_spaces]

@@ -62,11 +62,23 @@
     font-size: 12px;
     list-style: square;
   }
+  #options-menu {
+    width: 230px; 
+    float: left; 
+    margin: 20px 10px 0 -30px;
+    padding: 0;    
+  }
+  #options-menu ul li{
+    list-style: none;
+  }
+  #content {
+    float: left;
+  }
 </style>
 
 <body>
 <p style="color: green"><%= flash[:notice] %></p>
-<div id="options-menu" style="width: 210px; float: left; margin: 20px 10px 0 0;">
+<div id="options-menu">
   <ul>
     <li><a href="<%= vehicle_types_path %>"><%= I18n.t(:vehicle_types) %></a></li>
     <li><a href="<%= users_path %>"><%= I18n.t(:users) %></a></li>
@@ -74,7 +86,7 @@
     <li><a href="<%= parking_spaces_path %>"><%= I18n.t(:parking_spaces) %></a></li>
   </ul>
 </div>
-<div id="content" style="float:left;" >
+<div id="content">
   <%= yield  %>
 </div>
 

@@ -13,9 +13,9 @@
   <tr>
     <td><%=h parking_space.amount %></td>
     <td><%=h parking_space.amount_free %></td>
-    <td><%=h parking_space.park_id %></td>
-    <td><%=h parking_space.vehicle_type_id %></td>
-    <td><%=h parking_space.user_id %></td>
+    <td><%=h parking_space.park.name %></td>
+    <td><%=h parking_space.vehicle_type.name %></td>
+    <td><%=h parking_space.user.name %></td>
     <td><%= link_to 'Show', parking_space %></td>
     <td><%= link_to 'Edit', edit_parking_space_path(parking_space) %></td>
     <td><%= link_to 'Destroy', parking_space, :confirm => 'Are you sure?', :method => :delete %></td>
