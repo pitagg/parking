@@ -1,0 +1,32 @@
+<h1>Editing parking_space</h1>
+
+<% form_for(@parking_space) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :amount %><br />
+    <%= f.text_field :amount %>
+  </p>
+  <p>
+    <%= f.label :amount_free %><br />
+    <%= f.text_field :amount_free %>
+  </p>
+  <p>
+    <%= f.label :park_id %><br />
+    <%= f.text_field :park_id %>
+  </p>
+  <p>
+    <%= f.label :vehicle_type_id %><br />
+    <%= f.text_field :vehicle_type_id %>
+  </p>
+  <p>
+    <%= f.label :user_id %><br />
+    <%= f.text_field :user_id %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @parking_space %> |
+<%= link_to 'Back', parking_spaces_path %>

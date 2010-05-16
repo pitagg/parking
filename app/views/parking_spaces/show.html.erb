@@ -1,0 +1,28 @@
+<p>
+  <b>Amount:</b>
+  <%=h @parking_space.amount %>
+</p>
+
+<p>
+  <b>Amount free:</b>
+  <%=h @parking_space.amount_free %>
+</p>
+
+<p>
+  <b>Park:</b>
+  <%=h @parking_space.park_id %>
+</p>
+
+<p>
+  <b>Vehicle type:</b>
+  <%=h @parking_space.vehicle_type_id %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%=h @parking_space.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_parking_space_path(@parking_space) %> |
+<%= link_to 'Back', parking_spaces_path %>

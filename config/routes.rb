@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :parking_spaces
+
   map.resources :vehicle_types
 
   map.resources :parks
@@ -8,4 +10,5 @@ ActionController::Routing::Routes.draw do |map|
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
   
+  map.root :controller => :parks
 end

@@ -1,0 +1,28 @@
+<h1>Listing parking_spaces</h1>
+
+<table>
+  <tr>
+    <th>Amount</th>
+    <th>Amount free</th>
+    <th>Park</th>
+    <th>Vehicle type</th>
+    <th>User</th>
+  </tr>
+
+<% for parking_space in @parking_spaces %>
+  <tr>
+    <td><%=h parking_space.amount %></td>
+    <td><%=h parking_space.amount_free %></td>
+    <td><%=h parking_space.park_id %></td>
+    <td><%=h parking_space.vehicle_type_id %></td>
+    <td><%=h parking_space.user_id %></td>
+    <td><%= link_to 'Show', parking_space %></td>
+    <td><%= link_to 'Edit', edit_parking_space_path(parking_space) %></td>
+    <td><%= link_to 'Destroy', parking_space, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New parking_space', new_parking_space_path %>
