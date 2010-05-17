@@ -17,6 +17,31 @@
       <li><%= "Vagas Livres: #{ps.amount_free}" %></li>
     </ul>
   <% end %>
+  <% form_for(@parking_space) do |f| %>
+    <%= f.error_messages %>
+    <p>
+      <%= f.label :vehicle_type_id %><br />
+      <%= f.select :vehicle_type_id, @vehicles %>
+    </p>
+    <p>
+      <%= f.label :amount %><br />
+      <%= f.text_field :amount %>
+    </p>
+    <p>
+      <%= f.label :amount_free %><br />
+      <%= f.text_field :amount_free %>
+    </p>
+    <p>
+      <%= f.hidden_field :park_id, :value => @park.id %>
+    </p>
+    <p>
+      <%= f.label :user_id %><br />
+      <%= f.text_field :user_id %>
+    </p>
+    <p>
+      <%= f.submit "Create" %>
+    </p>
+  <% end %>
 </div>
 
 

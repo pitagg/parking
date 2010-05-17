@@ -14,7 +14,12 @@ class ParksController < ApplicationController
   # GET /parks/1.xml
   def show
     @park = Park.find(params[:id])
-
+    @parking_space = ParkingSpace.new
+    @vehicles = {"Selecione" => ""}
+    VehicleType.all.each do |vehicle|
+      @vehicles.merge!({vehicle.name => vehicle.id}) unless ParkingSpace.find(:all, :conditions => {:vehicle_type_id => vehicle.id}).count > 0
+    end
+    
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @park }
