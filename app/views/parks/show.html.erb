@@ -8,6 +8,17 @@
   <%=h @park.address %>
 </p>
 
+<div id="parking-spaces">
+  <b>Parking Spaces:</b>
+  <% for ps in @park.parking_spaces %>
+    <ul>
+      <li><%= "Tipo de Veículo: #{ps.vehicle_type.name}" %></li>
+      <li><%= "Quantidade de Vagas: #{ps.amount}" %></li>
+      <li><%= "Vagas Livres: #{ps.amount_free}" %></li>
+    </ul>
+  <% end %>
+</div>
+
 
 <%= link_to 'Edit', edit_park_path(@park) %> |
 <%= link_to 'Back', parks_path %>
