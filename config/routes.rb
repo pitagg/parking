@@ -10,5 +10,7 @@ ActionController::Routing::Routes.draw do |map|
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
   
+  map.resources :visual_patterns, :only => [:index]
+  
   map.root :controller => :parks
 end
